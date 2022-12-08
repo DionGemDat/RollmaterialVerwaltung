@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace RollmaterialVerwaltung.Controllers
 {
@@ -13,16 +9,30 @@ namespace RollmaterialVerwaltung.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Reservation()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "ReservationPage.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult RollingStock()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "RollingStockPage.";
+
+            return View();
+        }
+
+        public ActionResult TrainComposition()
+        {
+            ViewBag.Message = "TrainCompositionPage.";
+
+            return View();
+        }
+
+        public ActionResult MemberAdministration()
+        {
+            ViewBag.Message = "MemberAdministrationPage.";
 
             return View();
         }
