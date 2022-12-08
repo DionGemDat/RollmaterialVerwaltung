@@ -120,6 +120,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\TrainCompositionController.cs" />
+    <Compile Include="Controllers\RollingStockController.cs" />
+    <Compile Include="Controllers\ReservationController.cs" />
+    <Compile Include="Controllers\MemberAdministrationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -159,11 +163,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\TrainComposition.cshtml" />
-    <Content Include="Views\Home\RollingStock.cshtml" />
+    <Content Include="Views\TrainComposition\TrainComposition.cshtml" />
+    <Content Include="Views\RollingStock\RollingStock.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Reservation.cshtml" />
-    <Content Include="Views\Home\MemberAdministration.cshtml" />
+    <Content Include="Views\Reservation\Reservation.cshtml" />
+    <Content Include="Views\MemberAdministration\MemberAdministration.cshtml" />
+    <Content Include="Views\Reservation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
