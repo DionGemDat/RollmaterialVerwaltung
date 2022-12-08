@@ -4,7 +4,7 @@ namespace RollmaterialVerwaltung.Controllers
 {
     public class ReservationController : Controller
     {
-        public ActionResult Reservation()
+        public ActionResult Overview()
         {
             ViewBag.Message = "ReservationPage.";
 

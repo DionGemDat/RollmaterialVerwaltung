@@ -4,7 +4,7 @@ namespace RollmaterialVerwaltung.Controllers
 {
     public class TrainCompositionController : Controller
     {
-        public ActionResult TrainComposition()
+        public ActionResult Overview()
         {
             ViewBag.Message = "TrainCompositionPage.";
 

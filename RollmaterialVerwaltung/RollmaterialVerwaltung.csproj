@@ -128,6 +128,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FreightWagon.cs" />
+    <Compile Include="Models\PersonWagon.cs" />
+    <Compile Include="Models\Locomotive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -163,16 +166,15 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\TrainComposition\TrainComposition.cshtml" />
-    <Content Include="Views\RollingStock\RollingStock.cshtml" />
+    <Content Include="Views\TrainComposition\Overview.cshtml" />
+    <Content Include="Views\RollingStock\Overview.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Reservation\Reservation.cshtml" />
-    <Content Include="Views\MemberAdministration\MemberAdministration.cshtml" />
+    <Content Include="Views\Reservation\Overview.cshtml" />
+    <Content Include="Views\MemberAdministration\Overview.cshtml" />
     <Content Include="Views\Reservation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

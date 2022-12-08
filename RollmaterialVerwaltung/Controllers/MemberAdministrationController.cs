@@ -5,7 +5,7 @@ namespace RollmaterialVerwaltung.Controllers
     public class MemberAdministrationController : Controller
     {
 
-        public ActionResult MemberAdministration()
+        public ActionResult Overview()
         {
             ViewBag.Message = "MemberAdministrationPage.";
 
